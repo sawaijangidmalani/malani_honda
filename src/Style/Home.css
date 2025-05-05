@@ -1,0 +1,71 @@
+.banner-img {
+  height: 90vh;
+  object-fit: cover;
+}
+
+
+.button-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.button-section .btn {
+  min-width: 200px;
+}
+
+.welcome-heading {
+  color: red;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.welcome-subheading {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+
+.services-section {
+  background-color: #fff;
+}
+
+.section-title {
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.service-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.service-link:hover {
+  color: red;
+}
+
+.service-link:hover .service-icon {
+  transform: scale(1.1);
+}
+
+.service-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}

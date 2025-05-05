@@ -1,0 +1,88 @@
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  background-color: white;
+}
+
+body {
+  padding-top: 150px;
+}
+
+.honda-logo {
+  height: 50px;
+}
+
+.top-bar {
+  font-size: 14px;
+}
+
+.top-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.top-contact span {
+  margin: 0 5px;
+  font-weight: 600;
+}
+
+.service-booking {
+  color: red;
+}
+
+.dealership-name {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.nav-link-custom {
+  color: #333 !important;
+  font-weight: 600;
+  margin: 0 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link-custom:hover {
+  color: red !important;
+}
+
+.nav-link-custom.active {
+  color: red !important;
+}
+
+.nav-link-custom.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+
+.buy-now {
+  color: red !important;
+}
+
+.buy-now.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
